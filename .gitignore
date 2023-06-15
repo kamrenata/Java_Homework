@@ -1,8 +1,8 @@
-.gradle
-.idea
-build
-gradle
-gradle/wrapper
+/.gradle
+/.idea
+/build
+/gradle
+/gradle/wrapper
 gradlew
 gradlew.bat
 settings.gradle
