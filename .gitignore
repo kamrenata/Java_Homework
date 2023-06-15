@@ -2,7 +2,8 @@
 /.idea
 /build
 /gradle
-*gradlew
-*gradlew.bat
-*settings.gradle
-*workspace.xml
+/gradle/wrapper
+gradlew
+gradlew.bat
+settings.gradle
+workspace.xml
