@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fe9ad0-4e63-4a20-9f00-fa6128e5d0eb" name="Changes" comment="gitignore modified" />
+    <list default="true" id="a3fe9ad0-4e63-4a20-9f00-fa6128e5d0eb" name="Changes" comment="gitignore modified">
+      <change beforePath="$PROJECT_DIR$/src/main/java/kam/renata/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kam/renata/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686816350028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore modified">
+      <created>1686824940957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686824940957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignore modified">
+      <created>1686824989171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686824989171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore modified">
+      <created>1686825131144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686825131144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
