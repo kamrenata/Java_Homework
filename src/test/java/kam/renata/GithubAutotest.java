@@ -9,10 +9,9 @@ import static com.codeborne.selenide.Selenide.open;
 
 
 
-public class githubAutotest extends TestBase {
-
+public class GithubAutotest extends TestBase {
     @Test
-    void JUnit5Check(){
+    void jUnit5Check(){
         //Открыть страницу Selenide в Github
         open("/");
         $("[placeholder='Search GitHub']").setValue("Selenide").pressEnter();
