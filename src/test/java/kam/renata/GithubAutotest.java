@@ -19,10 +19,12 @@ public class GithubAutotest extends TestBase {
         //Перейти в раздел Wiki проекта
         $("#wiki-tab").click();
         //Убедиться, что в списке страниц (Pages) есть страница SoftAssertions
-        $(".markdown-body").shouldHave(text("Soft assertions"));
+        $(".js-wiki-more-pages-link").click();
+        $("#wiki-pages-box").shouldHave(text("SoftAssertions"));
         //Открыть страницу SoftAssertions, проверить, что внутри есть пример кода для JUnit5
-        $(".markdown-body").$(byText("Soft assertions")).click();
-        $("#wiki-body").shouldHave(text("Using JUnit5 extend test class"));
+        $(byText("SoftAssertions")).click();
+        $("#wiki-body").shouldHave(text("@ExtendWith({SoftAssertsExtension.class})\n" +
+                "class Tests {"));
     }
 
 }
